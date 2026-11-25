@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Filter Wajah Wisuda &amp; Kampus</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": {
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+  "mindar-face-three": "https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-face-three.prod.js"
+} }
+</script>
+</head>
+<body>
+<div id="ar"></div>
+<div id="hud" hidden><div id="status">Memuat…</div><div id="fname"></div></div>
+<div id="bar" hidden>
+  <button id="prev" aria-label="Filter sebelumnya">◀</button>
+  <button id="shot" aria-label="Ambil foto"></button>
+  <button id="next" aria-label="Filter berikutnya">▶</button>
+</div>
+<section id="start" class="overlay">
+  <h1>🎓 Filter Wajah Wisuda &amp; Kampus</h1>
+  <p>Kamera hanya diproses di perangkat Anda. Video dan foto wajah tidak diunggah ke server.</p>
+  <button id="go" class="big">Mulai Kamera</button>
+  <p id="msg"></p>
+</section>
+<section id="preview" class="overlay" hidden>
+  <img id="pimg" alt="Hasil foto">
+  <div class="row"><button id="save" class="big">Simpan</button><button id="close" class="big alt">Tutup</button></div>
+</section>
+<div id="debug" hidden>
+  <label>Skala <input id="dS" type="range" min="0.3" max="3" step="0.05" value="1"></label>
+  <label>Y <input id="dY" type="range" min="-1" max="1" step="0.02" value="0"></label>
+  <label>Z <input id="dZ" type="range" min="-1" max="1" step="0.02" value="0"></label>
+  <pre id="dOut"></pre>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "filters": [
+    {
+      "id": "toga",
+      "name": "Topi Toga Wisuda",
+      "items": [
+        { "file": "assets/toga.glb", "anchor": 10, "position": [0, -0.1, 0], "rotation": [0, 0, 0], "scale": 1 }
+      ]
+    },
+    {
+      "id": "kacamata",
+      "name": "Kacamata Berkilau",
+      "items": [
+        { "file": "assets/kacamata.glb", "anchor": 168, "position": [0, 0, 0.1], "rotation": [0, 0, 0], "scale": 1 }
+      ]
+    }
+  ]
+}
