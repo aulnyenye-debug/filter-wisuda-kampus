@@ -11,7 +11,7 @@
       "id": "kacamata",
       "name": "Kacamata Berkilau",
       "items": [
-        { "file": "assets/kacamata.glb", "anchor": 168, "position": [0, 0, 0.1], "rotation": [0, 0, 0], "scale": 1 }
+        { "file": "assets/kacamata.glb", "anchor": 168, "position": [0, -0.02, 0.1], "rotation": [0, 0, 0], "scale": 0.65 }
       ]
     }
   ]
