@@ -1,26 +1,32 @@
-![Kode QR] (Kode QR.png)
-# Filter Wajah "Wisuda dan Kampus" (AR Smartphone v0.5)
+🎓 Filter Wajah "Wisuda dan Kampus"
 
-Aplikasi AR berbasis web: aksesori 3D bertema kampus menempel di wajah lewat kamera HP.
-Pemrosesan 100% di perangkat; tidak ada video/foto yang diunggah.
+Miniproject UTS Praktikum AR dan VR KELOMPOK 1 · Prodi Teknologi Informasi · FIKTI UMSU · 2026
 
-**Demo:** https://USERNAME.github.io/filter-wisuda-kampus/  (ganti)
+Aplikasi (HTTPS): https://aulnyenye-debug.github.io/filter-wisuda-kampus/
 
-## Fitur
-- 2 aksesori GLB: Topi Toga (tassel berayun) dan Kacamata Berkilau (bintang berputar)
-- Tombol ganti filter, tombol ambil foto (simpan/bagikan ke perangkat)
-- Pesan jelas bila izin kamera ditolak
-- Filter terakhir tersimpan (localStorage); data filter di `data/filters.json`
+Deskripsi
 
-## Menjalankan
-Buka folder di VS Code → Live Server (laptop), atau buka tautan GitHub Pages (HP). Wajib HTTPS/localhost.
-Mode penyesuaian aksesori: tambahkan `?debug=1` di alamat.
+Aplikasi AR berbasis web yang berjalan di browser HP tanpa instalasi. Kamera depan mendeteksi wajah, lalu aksesori 3D bertema wisuda menempel dan ikut bergerak. Foto hanya disimpan di perangkat pengguna.
 
-## Teknologi
-Three.js 0.160.0, MindAR 1.2.5 (face tracking), GLTFLoader, GitHub Pages.
+Fitur
 
-## Struktur
-`index.html` · `js/main.js` · `css/style.css` · `data/filters.json` · `assets/*.glb` · `docs/` · `tools/gen_assets.py`
+	•	2 aksesori 3D (GLB): Topi Toga (tassel berayun) dan Kacamata Berkilau (bintang berputar)
+	•	Face tracking dengan MindAR dan Three.js
+	•	Tombol ganti filter dan tombol ambil foto
+	•	Pesan jelas jika izin kamera ditolak
+	•	Filter terakhir tersimpan (localStorage)
+	•	Data filter terpisah dari kode di data/filters.json
+
+Cara menjalankan
+
+	•	Di HP: buka tautan di atas (atau scan QR) dengan Chrome atau Safari, ketuk Mulai Kamera, lalu izinkan kamera.
+	•	Di laptop: buka folder di VS Code, klik kanan index.html, pilih Open with Live Server.
+	•	Penyesuaian posisi aksesori: tambahkan ?debug=1 di akhir alamat.
+
+Struktur
+
+index.html · js/main.js · css/style.css · data/filters.json · assets/ (model GLB) · docs/ (matriks perangkat dan lisensi aset)
+
 
 ## Batasan yang diketahui
 - Filter wajah dapat berjalan dengan baik pada kondisi pencahayaan yang cukup.
@@ -29,6 +35,12 @@ Three.js 0.160.0, MindAR 1.2.5 (face tracking), GLTFLoader, GitHub Pages.
 
 Catatan: Untuk mendapatkan hasil yang lebih optimal, disarankan menggunakan filter di tempat dengan pencahayaan yang cukup agar wajah dapat terdeteksi dengan lebih baik.
 
+
 ## Tim
 | Nama | Peran |
-|---|---|
+| Dinda Aulia Putri (aulnyenye-debug) | Project Manager dan Integrator |
+| Raihan Ali (taraa25565-debug) | Aset 3D dan Animasi |
+| Febrio alpasha (febriopasha) | Engineering Tracking |
+| Annisa Natasya (annisanatasya-14) | QA dan Dokumentasi |
+| Rais Alhazmi (raisalhazmi2110-netizen) | Interaksi dan UI/UX |
+| Nabil Azmi (nabilazmi-vr) | Data dan Persistence |
