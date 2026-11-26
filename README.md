@@ -26,6 +26,7 @@ Three.js 0.160.0, MindAR 1.2.5 (face tracking), GLTFLoader, GitHub Pages.
 - Filter wajah dapat berjalan dengan baik pada kondisi pencahayaan yang cukup.
 - Pada kondisi pencahayaan yang gelap atau minim cahaya, sistem mengalami kesulitan dalam mendeteksi wajah.
 - Dalam kondisi tersebut, filter terkadang tidak dapat mendeteksi wajah sehingga efek filter tidak muncul atau tidak mengikuti wajah dengan baik.
+
 Catatan: Untuk mendapatkan hasil yang lebih optimal, disarankan menggunakan filter di tempat dengan pencahayaan yang cukup agar wajah dapat terdeteksi dengan lebih baik.
 
 ## Tim
