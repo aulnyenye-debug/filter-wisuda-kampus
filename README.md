@@ -37,10 +37,12 @@ Catatan: Untuk mendapatkan hasil yang lebih optimal, disarankan menggunakan filt
 
 
 ## Tim
+
 | Nama | Peran |
+|---|---|
 | Dinda Aulia Putri (aulnyenye-debug) | Project Manager dan Integrator |
 | Raihan Ali (taraa25565-debug) | Aset 3D dan Animasi |
-| Febrio alpasha (febriopasha) | Engineering Tracking |
+| Febrio Alpasha (febriopasha) | Engineer Tracking |
 | Annisa Natasya (annisanatasya-14) | QA dan Dokumentasi |
 | Rais Alhazmi (raisalhazmi2110-netizen) | Interaksi dan UI/UX |
 | Nabil Azmi (nabilazmi-vr) | Data dan Persistence |
